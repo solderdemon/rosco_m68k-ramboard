@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "roscram01-cache") (type "Legacy") (uri "${KIPRJMOD}/roscram01-cache.lib") (options "") (descr "legacy schematic cache"))
+)

@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name rosco_m68k)(type KiCad)(uri ${KIPRJMOD}/../../../kicad-libs/rosco_m68k.pretty)(options "")(descr "rosco_m68k-specific footprints"))
+  (lib (name SolderDemonCaps)(type KiCad)(uri ${KIPRJMOD}/../tools/capacitors/SolderDemonCaps.pretty)(options "")(descr "5.08 mm radial capacitor"))
+)

@@ -1,0 +1,270 @@
+** Drc report for roscram01.kicad_pcb **
+** Created on 2026-10-20T15:55:50 **
+** Report includes: Errors, Warnings **
+
+** Found 63 DRC violations **
+[zones_intersect]: Copper zones intersect (intersecting zones must have distinct priorities)
+    Local override; error
+    @(204.3730 mm, 32.0040 mm): Zone [GND] on F.Cu, priority 0
+    @(93.2180 mm, 112.2680 mm): Zone [GND] on F.Cu, priority 0
+[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; 2 spokes connected to isolated island)
+    Local override; error
+    @(204.3730 mm, 32.0040 mm): Zone [GND] on F.Cu, priority 0
+    @(154.8257 mm, 42.1386 mm): PTH pad 16 [GND] of U3
+[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; 2 spokes connected to isolated island)
+    Local override; error
+    @(204.3730 mm, 32.0040 mm): Zone [GND] on F.Cu, priority 0
+    @(132.7277 mm, 42.1386 mm): PTH pad 16 [GND] of U5
+[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; 2 spokes connected to isolated island)
+    Local override; error
+    @(204.3730 mm, 32.0040 mm): Zone [GND] on F.Cu, priority 0
+    @(110.3757 mm, 42.1386 mm): PTH pad 16 [GND] of U7
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(104.9262 mm, 132.8801 mm): Track [VCC] on B.Cu, length 0.6235 mm
+    @(191.5000 mm, 73.5000 mm): Rule Area on B.Cu
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(101.0932 mm, 132.8801 mm): Track [VCC] on B.Cu, length 0.1155 mm
+    @(191.5000 mm, 73.5000 mm): Rule Area on B.Cu
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(127.5322 mm, 132.8801 mm): Track [VCC] on B.Cu, length 0.7505 mm
+    @(191.5000 mm, 73.5000 mm): Rule Area on B.Cu
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(146.3052 mm, 132.8801 mm): Track [VCC] on B.Cu, length 0.6235 mm
+    @(191.5000 mm, 73.5000 mm): Rule Area on B.Cu
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(150.1382 mm, 132.8801 mm): Track [VCC] on B.Cu, length 0.2425 mm
+    @(191.5000 mm, 73.5000 mm): Rule Area on B.Cu
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(123.6992 mm, 132.8801 mm): Track [VCC] on B.Cu, length 0.1155 mm
+    @(191.5000 mm, 73.5000 mm): Rule Area on B.Cu
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(112.7379 mm, 85.6518 mm): Track [A5] on B.Cu, length 1.414e-06 mm
+    @(191.5000 mm, 73.5000 mm): Rule Area on B.Cu
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(198.4248 mm, 40.2717 mm): Track [D4] on B.Cu, length 0.1270 mm
+    @(191.5000 mm, 73.5000 mm): Rule Area on B.Cu
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(91.0082 mm, 117.3988 mm): Track [RnW] on F.Cu, length 4.0513 mm
+    @(191.5000 mm, 73.5000 mm): Rule Area on B.Cu
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(88.8492 mm, 63.4873 mm): Track [WnR] on F.Cu, length 0.9024 mm
+    @(191.5000 mm, 73.5000 mm): Rule Area on B.Cu
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(179.3875 mm, 82.1436 mm): Track [ORAM1] on B.Cu, length 1.4732 mm
+    @(191.5000 mm, 73.5000 mm): Rule Area on B.Cu
+[lib_footprint_issues]: The footprint library 'rosco_m68k' is not enabled in the current configuration
+    Local override; warning
+    @(199.8472 mm, 58.7121 mm): Footprint J1
+    @(191.5000 mm, 73.5000 mm): Rule Area on B.Cu
+[lib_footprint_issues]: The footprint library 'rosco_m68k' is not enabled in the current configuration
+    Local override; warning
+    @(88.8619 mm, 75.3872 mm): Footprint R1
+    @(191.5000 mm, 73.5000 mm): Rule Area on B.Cu
+[lib_footprint_issues]: The footprint library 'rosco_m68k' is not enabled in the current configuration
+    Local override; warning
+    @(185.9407 mm, 57.9501 mm): Footprint R4
+    @(191.5000 mm, 73.5000 mm): Rule Area on B.Cu
+[lib_footprint_issues]: The footprint library 'rosco_m68k' is not enabled in the current configuration
+    Local override; warning
+    @(190.3222 mm, 57.9501 mm): Footprint R5
+    @(191.5000 mm, 73.5000 mm): Rule Area on B.Cu
+[lib_footprint_mismatch]: Footprint 'DIP-32_W15.24mm' does not match copy in library 'Package_DIP'
+    Local override; warning
+    @(177.1142 mm, 80.2386 mm): Footprint U1
+    @(191.5000 mm, 73.5000 mm): Rule Area on B.Cu
+[lib_footprint_mismatch]: Footprint 'DIP-32_W15.24mm' does not match copy in library 'Package_DIP'
+    Local override; warning
+    @(177.0507 mm, 125.0061 mm): Footprint U2
+    @(191.5000 mm, 73.5000 mm): Rule Area on B.Cu
+[lib_footprint_mismatch]: Footprint 'DIP-32_W15.24mm' does not match copy in library 'Package_DIP'
+    Local override; warning
+    @(154.8257 mm, 80.2386 mm): Footprint U3
+    @(191.5000 mm, 73.5000 mm): Rule Area on B.Cu
+[lib_footprint_mismatch]: Footprint 'DIP-32_W15.24mm' does not match copy in library 'Package_DIP'
+    Local override; warning
+    @(154.8257 mm, 125.0061 mm): Footprint U4
+    @(191.5000 mm, 73.5000 mm): Rule Area on B.Cu
+[lib_footprint_mismatch]: Footprint 'DIP-32_W15.24mm' does not match copy in library 'Package_DIP'
+    Local override; warning
+    @(132.7277 mm, 80.2386 mm): Footprint U5
+    @(191.5000 mm, 73.5000 mm): Rule Area on B.Cu
+[lib_footprint_mismatch]: Footprint 'DIP-32_W15.24mm' does not match copy in library 'Package_DIP'
+    Local override; warning
+    @(132.6642 mm, 125.0061 mm): Footprint U6
+    @(191.5000 mm, 73.5000 mm): Rule Area on B.Cu
+[lib_footprint_mismatch]: Footprint 'DIP-32_W15.24mm' does not match copy in library 'Package_DIP'
+    Local override; warning
+    @(110.3757 mm, 80.2386 mm): Footprint U7
+    @(191.5000 mm, 73.5000 mm): Rule Area on B.Cu
+[lib_footprint_issues]: The footprint library 'rosco_m68k' is not enabled in the current configuration
+    Local override; warning
+    @(184.6707 mm, 83.4136 mm): Footprint IC1
+    @(191.5000 mm, 73.5000 mm): Rule Area on B.Cu
+[lib_footprint_issues]: The footprint library 'rosco_m68k' is not enabled in the current configuration
+    Local override; warning
+    @(181.5592 mm, 57.9501 mm): Footprint R3
+    @(191.5000 mm, 73.5000 mm): Rule Area on B.Cu
+[lib_footprint_issues]: The footprint library 'rosco_m68k' is not enabled in the current configuration
+    Local override; warning
+    @(84.7852 mm, 75.3999 mm): Footprint R2
+    @(191.5000 mm, 73.5000 mm): Rule Area on B.Cu
+[lib_footprint_mismatch]: Footprint 'DIP-32_W15.24mm' does not match copy in library 'Package_DIP'
+    Local override; warning
+    @(110.3122 mm, 125.0061 mm): Footprint U8
+    @(191.5000 mm, 73.5000 mm): Rule Area on B.Cu
+[lib_footprint_issues]: The footprint library 'rosco_m68k' is not enabled in the current configuration
+    Local override; warning
+    @(88.9680 mm, 52.3020 mm): Footprint JP1-3
+    @(191.5000 mm, 73.5000 mm): Rule Area on B.Cu
+[lib_footprint_issues]: The footprint library 'rosco_m68k' is not enabled in the current configuration
+    Local override; warning
+    @(184.6707 mm, 42.1386 mm): Footprint C10
+    @(191.5000 mm, 73.5000 mm): Rule Area on B.Cu
+[lib_footprint_issues]: The footprint library 'rosco_m68k' is not enabled in the current configuration
+    Local override; warning
+    @(184.6707 mm, 125.0061 mm): Footprint C11
+    @(191.5000 mm, 73.5000 mm): Rule Area on B.Cu
+[lib_footprint_issues]: The footprint library 'rosco_m68k' is not enabled in the current configuration
+    Local override; warning
+    @(105.0000 mm, 84.0000 mm): Footprint REF**
+    @(191.5000 mm, 73.5000 mm): Rule Area on B.Cu
+[lib_footprint_issues]: The footprint library 'rosco_m68k' is not enabled in the current configuration
+    Local override; warning
+    @(145.5000 mm, 85.0000 mm): Footprint REF**
+    @(191.5000 mm, 73.5000 mm): Rule Area on B.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(181.8767 mm, 96.6216 mm): Segment of IC1 on F.Silkscreen
+    @(180.8607 mm, 82.1436 mm): PTH pad 15 [ORAM1] of IC1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(181.8767 mm, 96.6216 mm): Segment of IC1 on F.Silkscreen
+    @(180.8607 mm, 84.6836 mm): PTH pad 16 [ERAM1] of IC1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(181.8767 mm, 96.6216 mm): Segment of IC1 on F.Silkscreen
+    @(180.8607 mm, 87.2236 mm): PTH pad 17 [ERAM2] of IC1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(181.8767 mm, 96.6216 mm): Segment of IC1 on F.Silkscreen
+    @(180.8607 mm, 89.7636 mm): PTH pad 18 [ERAM3] of IC1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(181.8767 mm, 96.6216 mm): Segment of IC1 on F.Silkscreen
+    @(180.8607 mm, 92.3036 mm): PTH pad 19 [ERAM4] of IC1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(181.8767 mm, 96.6216 mm): Segment of IC1 on F.Silkscreen
+    @(180.8607 mm, 94.8436 mm): PTH pad 20 [VCC] of IC1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(181.8767 mm, 96.6216 mm): Segment of IC1 on F.Silkscreen
+    @(180.8607 mm, 71.9836 mm): PTH pad 11 [EXPSEL] of IC1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(181.8767 mm, 96.6216 mm): Segment of IC1 on F.Silkscreen
+    @(180.8607 mm, 74.5236 mm): PTH pad 12 [ORAM4] of IC1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(181.8767 mm, 96.6216 mm): Segment of IC1 on F.Silkscreen
+    @(180.8607 mm, 77.0636 mm): PTH pad 13 [ORAM3] of IC1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(181.8767 mm, 96.6216 mm): Segment of IC1 on F.Silkscreen
+    @(180.8607 mm, 79.6036 mm): PTH pad 14 [ORAM2] of IC1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(187.4647 mm, 70.2056 mm): Segment of IC1 on F.Silkscreen
+    @(188.4807 mm, 84.6836 mm): PTH pad 5 [JP1] of IC1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(187.4647 mm, 70.2056 mm): Segment of IC1 on F.Silkscreen
+    @(188.4807 mm, 82.1436 mm): PTH pad 6 [JP2] of IC1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(187.4647 mm, 70.2056 mm): Segment of IC1 on F.Silkscreen
+    @(188.4807 mm, 94.8436 mm): PTH pad 1 [A23] of IC1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(187.4647 mm, 70.2056 mm): Segment of IC1 on F.Silkscreen
+    @(188.4807 mm, 92.3036 mm): PTH pad 2 [A22] of IC1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(187.4647 mm, 70.2056 mm): Segment of IC1 on F.Silkscreen
+    @(188.4807 mm, 89.7636 mm): PTH pad 3 [A21] of IC1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(187.4647 mm, 70.2056 mm): Segment of IC1 on F.Silkscreen
+    @(188.4807 mm, 87.2236 mm): PTH pad 4 [A20] of IC1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(187.4647 mm, 70.2056 mm): Segment of IC1 on F.Silkscreen
+    @(188.4807 mm, 79.6036 mm): PTH pad 7 [JP3] of IC1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(187.4647 mm, 70.2056 mm): Segment of IC1 on F.Silkscreen
+    @(188.4807 mm, 77.0636 mm): PTH pad 8 [UDS] of IC1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(187.4647 mm, 70.2056 mm): Segment of IC1 on F.Silkscreen
+    @(188.4807 mm, 74.5236 mm): PTH pad 9 [LDS] of IC1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(187.4647 mm, 70.2056 mm): Segment of IC1 on F.Silkscreen
+    @(188.4807 mm, 71.9836 mm): PTH pad 10 [GND] of IC1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(139.5310 mm, 81.1900 mm): Segment of REF** on B.Silkscreen
+    @(139.5857 mm, 86.9061 mm): PTH pad 17 [D11] of U4
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(139.5310 mm, 81.1900 mm): Segment of REF** on B.Silkscreen
+    @(139.5857 mm, 89.4461 mm): PTH pad 18 [D12] of U4
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(139.5310 mm, 88.7084 mm): Segment of REF** on B.Silkscreen
+    @(139.5857 mm, 89.4461 mm): PTH pad 18 [D12] of U4
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(139.5310 mm, 88.7084 mm): Segment of REF** on B.Silkscreen
+    @(139.5857 mm, 91.9861 mm): PTH pad 19 [D13] of U4
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(139.5310 mm, 88.7084 mm): Segment of REF** on B.Silkscreen
+    @(139.5857 mm, 94.5261 mm): PTH pad 20 [D14] of U4
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(139.5310 mm, 88.7084 mm): Segment of REF** on B.Silkscreen
+    @(139.5857 mm, 97.0661 mm): PTH pad 21 [D15] of U4
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(139.5310 mm, 88.7084 mm): Segment of REF** on B.Silkscreen
+    @(139.5857 mm, 99.6061 mm): PTH pad 22 [ERAM2] of U4
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(139.5310 mm, 88.7084 mm): Segment of REF** on B.Silkscreen
+    @(139.5857 mm, 102.1461 mm): PTH pad 23 [A11] of U4
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **

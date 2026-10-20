@@ -1,0 +1,23 @@
+# KiCad
+*-backups/
+*.kicad_prl
+*.lck
+~*.lck
+_autosave-*
+fp-info-cache
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.bak
+
+# editors
+.history/
+.vscode/
+*.swp
+
+# python
+__pycache__/
+*.pyc
+
+# renders / temporary reports
+*.png
+!board.jpg

@@ -23,6 +23,7 @@ changes nothing.
 | 2026-10-14 | `tools/add_pin1_mark.py` | Filled silkscreen pointer plus `PIN 1` at pad 1 of the bus socket J1. |
 | 2026-10-20 | `tools/align_capacitors.py` | Every 100 nF body on the centre line of its SRAM, C9 on the centre line of IC1, C10/C11 on that axis centred on the end pin rows of U1 and U2. The D0–D7 bend down to U1 (B.Cu) moved 1.7 mm right and D8/D9 led between the pads of C2 to make room; U2 pin 32 fed through its own via onto the bottom VCC run; the redundant F.Cu GND link from C1 to the J1 corner dropped (GND stays on both pours and the B.Cu run). Designators of the 100 nF parts inside the body outline. |
 | 2026-10-20 | `tools/silk_notices.py` | Silkscreen: web link and OSHW logo removed, revision `r1`, copyright of both authors, `J1` beside `PIN 1` at 0.8 mm. |
+| 2026-10-20 | `tools/resistor_refs.py` | Designators of R1–R5 inside the body outline, 1.0/0.15 mm along the body, as the SolderDemon cards print resistors. |
 
 `design/CAMOutputs` holds the upstream Gerbers and drill files of the original
 revision. They do **not** reflect the changes above; regenerate them before

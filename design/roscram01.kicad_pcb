@@ -4031,15 +4031,14 @@
 		(at 88.8619 75.3872 -90)
 		(descr "<b>RESISTOR</b><p>\ntype 0207, grid 10 mm")
 		(property "Reference" "R1"
-			(at -1.3335 -2.8321 90)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(uuid "ed8763d0-38f2-4ae3-869b-9c13425d19d4")
 			(effects
 				(font
-					(size 1.2065 1.2065)
-					(thickness 0.12065)
+					(size 1 1)
+					(thickness 0.15)
 				)
-				(justify right bottom)
 			)
 		)
 		(property "Value" "10K"
@@ -4315,15 +4314,14 @@
 		(at 185.9407 57.9501 -90)
 		(descr "<b>RESISTOR</b><p>\ntype 0207, grid 10 mm")
 		(property "Reference" "R4"
-			(at -1.143 1.27 90)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(uuid "9ff33b70-4081-4c4d-9d7f-74728034478f")
 			(effects
 				(font
-					(size 1.2065 1.2065)
-					(thickness 0.12065)
+					(size 1 1)
+					(thickness 0.15)
 				)
-				(justify right bottom)
 			)
 		)
 		(property "Value" "4K7"
@@ -4599,15 +4597,14 @@
 		(at 190.3222 57.9501 -90)
 		(descr "<b>RESISTOR</b><p>\ntype 0207, grid 10 mm")
 		(property "Reference" "R5"
-			(at -1.143 1.397 90)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(uuid "537c5040-243b-4cc8-bfae-2f64ac513cf0")
 			(effects
 				(font
-					(size 1.2065 1.2065)
-					(thickness 0.12065)
+					(size 1 1)
+					(thickness 0.15)
 				)
-				(justify right bottom)
 			)
 		)
 		(property "Value" "4K7"
@@ -8812,15 +8809,14 @@
 		(at 181.5592 57.9501 -90)
 		(descr "<b>RESISTOR</b><p>\ntype 0207, grid 10 mm")
 		(property "Reference" "R3"
-			(at -1.143 1.397 90)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(uuid "4122701b-d7a4-40cb-ba33-77953ec0fef9")
 			(effects
 				(font
-					(size 1.2065 1.2065)
-					(thickness 0.12065)
+					(size 1 1)
+					(thickness 0.15)
 				)
-				(justify right bottom)
 			)
 		)
 		(property "Value" "4K7"
@@ -9096,15 +9092,14 @@
 		(at 84.7852 75.3999 -90)
 		(descr "<b>RESISTOR</b><p>\ntype 0207, grid 10 mm")
 		(property "Reference" "R2"
-			(at -0.9779 -2.5908 90)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(uuid "2d4b0f04-1600-46dd-b732-cb3e7966f153")
 			(effects
 				(font
-					(size 1.2065 1.2065)
-					(thickness 0.12065)
+					(size 1 1)
+					(thickness 0.15)
 				)
-				(justify right bottom)
 			)
 		)
 		(property "Value" "100K"
